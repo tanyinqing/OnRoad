@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@mipmap/wb" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="@string/hello_b"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#993399"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/animImageView"
+        android:layout_gravity="right|bottom"
+        android:src="@drawable/ball"
+        android:layout_marginBottom="10dp"/>
+
+</FrameLayout>

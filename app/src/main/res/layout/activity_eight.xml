@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.xlw.ui.activity.EightActivity">
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--<Button-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="选取坐标点"-->
+            <!--android:id="@+id/btn_latlng"-->
+            <!--android:onClick="onClick"/>-->
+        <!--<Button-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="绘制折线"-->
+            <!--android:id="@+id/btn_draw"-->
+            <!--android:onClick="onClick"-->
+            <!--android:enabled="false"/>-->
+    </LinearLayout>
+    <com.amap.api.maps2d.MapView
+        android:id="@+id/map1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

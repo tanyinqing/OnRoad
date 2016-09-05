@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="100dp"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/trip_photo_first"
+        android:src="@drawable/ball"
+        android:layout_gravity="center_vertical"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="旅行主题"
+            android:id="@+id/tv_trip_topic"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="旅行开始日期"
+            android:id="@+id/tv_trip_start"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关于本次旅行的描述"
+            android:id="@+id/tv_trip_desc"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right">
+
+            <!--<ImageButton-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:padding="0dp"-->
+                <!--android:id="@+id/imageButton"-->
+                <!--android:src="@mipmap/more"-->
+                <!--android:focusable="false"/>-->
+
+            <!--<ImageButton-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:padding="0dp"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:id="@+id/imageButton2"-->
+                <!--android:src="@mipmap/arrow"-->
+                <!--android:focusable="false"/>-->
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

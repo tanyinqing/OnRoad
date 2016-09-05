@@ -1,0 +1,14 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@mipmap/wa" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="@string/hello_a"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#993399"/>
+
+</FrameLayout>

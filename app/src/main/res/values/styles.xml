@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!--<style name="AppTheme" parent="android:Theme.Holo">-->
+        <!-- Customize your theme here. -->
+        <item name="android:windowAnimationStyle">@style/ActivityAnimationBottom</item>
+        <item name="colorPrimary">@color/primaryGreen</item>
+        <item name="colorPrimaryDark">@color/darkGreen</item>
+        <item name="colorAccent">@color/accentPink</item>
+    </style>
+    <!-- 自定义theme -->
+    <style name="myAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#aa6633</item>
+        <item name="colorPrimaryDark">#669933</item>
+        <item name="colorAccent">#99cc99</item>
+    </style>
+    <!-- 自定义theme -->
+    <style name="myAppTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#cc3366</item>
+        <item name="colorPrimaryDark">#009999</item>
+        <item name="colorAccent">#cccc00</item>
+    </style>
+
+
+    <!-- 窗口进入和退出效果 -->
+    <style name="WindowPopupAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>
+    </style>
+
+    <!-- activity转场动画 - 下方滑入滑出 -->
+    <style name="ActivityAnimationBottom" parent="@android:style/Animation.Activity">
+        <!-- activity2进入 -->
+        <item name="android:activityOpenEnterAnimation">@anim/slide_bottom_in</item>
+        <!-- activity1退出 -->
+        <item name="android:activityOpenExitAnimation">@anim/retain</item>
+        <!-- activity1返回进入 -->
+        <item name="android:activityCloseEnterAnimation">@anim/retain</item>
+        <!-- activity2在activity1返回后退出 -->
+        <item name="android:activityCloseExitAnimation">@anim/slide_bottom_out</item>
+    </style>
+
+    <!-- activity转场动画 - 旋转进入退出 -->
+    <style name="ActivityAnimationRotate" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_open_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_close_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_close_exit</item>
+    </style>
+
+    <!-- activity转场动画 - 左右侧滑入滑出 -->
+    <style name="ActivityAnimationRotateSlid" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/in_from_left</item>
+        <item name="android:activityOpenExitAnimation">@anim/out_from_right</item>
+        <item name="android:activityCloseEnterAnimation">@anim/in_from_right</item>
+        <item name="android:activityCloseExitAnimation">@anim/out_from_left</item>
+    </style>
+    <!-- Widget Styles -->
+    <style name="MenuButton" parent="android:Widget.Button">
+        <item name="android:minHeight">@dimen/buttonHeight</item>
+        <item name="android:textSize">@dimen/buttonTextSize</item>
+        <item name="android:textColor">@color/text_color_button</item>
+        <item name="android:background">@drawable/background_button</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+</resources>

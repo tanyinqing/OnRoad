@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="shadow_width">5dp</dimen>
+    <dimen name="slidingmenu_offset">360dp</dimen>
+
+    <!-- 按钮大小尺寸 -->
+    <dimen name="buttonHeight">48dp</dimen>
+
+    <!-- 按钮文本大小 -->
+    <dimen name="buttonTextSize">16sp</dimen>
+
+    <dimen name="widgetPadding">8dp</dimen>
+</resources>

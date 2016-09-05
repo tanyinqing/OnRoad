@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xlw.onroad" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:name="com.xlw.application.XlwApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="7382d241cf7a69138a271ac4d9a933b5" />
+
+        <activity
+            android:name="com.xlw.ui.activity.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xlw.ui.activity.FirstActivity"
+            android:label="@string/title_activity_welcome"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- <activity -->
+        <!-- android:name="com.xlw.ui.activity.BootstrapActivity" -->
+        <!-- android:label="@string/title_activity_bootstrap" > -->
+        <!-- </activity> -->
+        <activity
+            android:name="com.xlw.ui.activity.MenuActivity"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="com.xlw.ui.activity.TravelPlanningActivity"
+            android:label="@string/title_activity_turist_planning" >
+        </activity>
+        <activity
+            android:name="com.xlw.ui.activity.TravelNewActivity"
+            android:label="@string/title_activity_travel_new" >
+        </activity>
+        <activity
+            android:name="com.xlw.ui.activity.TravelMemoryActivity"
+            android:label="@string/title_activity_travel_memory" >
+        </activity>
+        <activity
+            android:name="com.xlw.ui.myactivity.ThreeActivity"
+            android:label="@string/title_activity_three" >
+        </activity>
+        <!-- <activity -->
+        <!-- android:name="com.xlw.ui.myactivity.fourActivity" -->
+        <!-- android:label="@string/title_activity_four" > -->
+        <!-- </activity> -->
+        <activity
+            android:name="com.xlw.ui.myactivity.sixActivity"
+            android:label="@string/title_activity_six" >
+        </activity>
+        <activity
+            android:name="com.xlw.ui.myactivity.DataActivity"
+            android:label="@string/title_activity_data" >
+        </activity>
+        <activity
+            android:name="com.xlw.ui.activity.SevenActivity"
+            android:label="@string/title_activity_seven" >
+        </activity>
+        <activity
+            android:name="com.xlw.ui.activity.EightActivity"
+            android:label="@string/title_activity_eight" >
+        </activity>
+        <activity
+            android:name="com.xlw.ui.activity.LastActivity"
+            android:label="@string/title_activity_last" >
+        </activity>
+        <activity
+            android:name="com.xlw.ui.activity.WelcomeActivity"
+            android:label="@string/title_activity_first" >
+        </activity>
+
+    </application>
+
+</manifest>

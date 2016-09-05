@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/FrameLayout1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="24dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:clickable="true"
+            android:padding="15dp"
+            android:src="@mipmap/point_normal" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:clickable="true"
+            android:padding="15dp"
+            android:src="@mipmap/point_normal" />
+
+    </LinearLayout>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="出发"
+        android:id="@+id/btn_go"
+        android:background="#0000"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="35dp"
+        android:layout_marginRight="15dp"
+        android:textColor="#993399"
+        android:visibility="invisible"/>
+
+</FrameLayout>

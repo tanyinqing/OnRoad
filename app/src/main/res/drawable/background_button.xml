@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 按下后的背景状态 -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/primaryDarkBlue" />
+        </shape>
+    </item>
+    <!-- 默认的背景状态 -->
+    <item>
+        <shape android:shape="rectangle">
+             <solid android:color="@color/primaryBlue" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 按下后的背景状态-->
+    <item android:state_pressed="true" android:drawable="@mipmap/imageview_photowall_hd_bg"/>
+    <!-- 默认的背景状态-->
+    <item android:drawable="@mipmap/imageview_photowall_bg"/>
+</selector>

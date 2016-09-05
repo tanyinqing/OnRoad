@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="账户:"
+        android:id="@+id/textView2"
+        android:layout_marginTop="105dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/mUsernameEdit"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="密码:"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/mUsernameEdit"
+        android:layout_alignLeft="@+id/mUsernameEdit"
+        android:layout_alignStart="@+id/mUsernameEdit"
+        android:layout_marginTop="33dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/mPasswordEdit"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        android:id="@+id/btn_submit"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="创建新账户"
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/mMessage"
+        android:layout_below="@+id/mPasswordEdit"
+        android:layout_alignLeft="@+id/mPasswordEdit"
+        android:layout_alignStart="@+id/mPasswordEdit"
+        android:layout_marginTop="27dp"
+        android:layout_alignRight="@+id/mPasswordEdit"
+        android:layout_alignEnd="@+id/mPasswordEdit"/>
+
+</RelativeLayout>

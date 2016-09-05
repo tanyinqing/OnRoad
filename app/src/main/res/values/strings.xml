@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">OnRoad</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">ADD</string>
+    <string name="title_activity_second">SecondActivity</string>
+
+    <string name="hello_a">世界那么大,我想去看看</string>
+    <string name="hello_b">来一场说走就走的旅行</string>
+    <string name="title_activity_welcome">在路上</string>
+    <string name="title_activity_bootstrap">BootstrapActivity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_turist_planning">旅行线路规划</string>
+    <string name="title_activity_travel_new">新的旅行</string>
+    <string name="title_activity_travel_memory">旅行记忆</string>
+    <string name="title_activity_three">ThreeActivity</string>
+    <string name="title_activity_four">fourActivity</string>
+    <string name="title_activity_six">sixActivity</string>
+    <string name="title_activity_data">DataActivity</string>
+    <string name="trip_category_prompt">请选择旅游类型</string>
+    <string-array name="trip_category">
+        <item>境内游</item>
+        <item>境外游</item>
+    </string-array>
+    <string name="title_activity_seven">SevenActivity</string>
+    <string name="title_activity_eight">EightActivity</string>
+    <string name="title_activity_last">LastActivity</string>
+    <string name="title_activity_first">FirstActivity</string>
+</resources>

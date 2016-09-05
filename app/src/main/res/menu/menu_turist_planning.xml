@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.xlw.ui.activity.TravelPlanningActivity">
+    <item android:id="@+id/action_settings"
+          android:title="截屏"
+          android:orderInCategory="100"
+          app:showAsAction="ifRoom"/>
+      <item android:id="@+id/SaveBitmap"
+          android:title="Save"
+          android:orderInCategory="100"
+          app:showAsAction="ifRoom"/>
+</menu>
